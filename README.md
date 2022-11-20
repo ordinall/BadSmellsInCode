@@ -1,3 +1,33 @@
+# Table Of Content
+* [Introduction](#introduction)
+* [Bad Code Smells](#bad-code-smells)
+   * [Mysterious Name](#mysterious-name)
+   * [Duplicated Code](#duplicated-code)
+   * [Long Function](#long-function)
+   * [Long Parameter List](#long-parameter-list)
+   * [Global Data](#global-data)
+   * [Mutable Data](#mutable-data)
+   * [Divergent Change](#divergent-change)
+   * [Shotgun Strategy](#shotgun-strategy)
+   * [Feature Envy](#feature-envy)
+   * [Data Clumps](#data-clumps)
+   * [Primitive Obsession](#primitive-obsession)
+   * [Repeated Switches](#repeated-switches)
+   * [Loops](#loops)
+   * [Lazy Element](#lazy-element)
+   * [Speculative Generality](#speculative-generality)
+   * [Temporary Field](#temporary-field)
+   * [Message Chains](#message-chains)
+   * [Middle Man](#middle-man)
+   * [Insider Trading](#insider-trading)
+   * [Large Class](#large-class)
+   * [Alternative Classes with Different Interfaces](#alternative-classes-with-different-interfaces)
+   * [Data Class](#data-class)
+   * [Refused Bequest](#refused-bequest)
+   * [Comments](#comments)
+* [My Favourites](#my-favourites)
+* [Trouble Grasping](#trouble-grasping)
+
 # Introduction
 
 You did your homework. You know how refactoring works and have learned every single refactoring method there is to know. But when should you use them? Just because you know how to do it, doesn't mean you know when to. Knowing when to start refactoring and when to stop is just as important as refactoring itself. So how would one know when the code needs some refactoring?
