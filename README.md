@@ -167,7 +167,7 @@ If you see a half a class delegating to other class, use *Remove Middle Man (192
 
 ## Insider Trading
 
-Programmers don't like trading data around between modules. But some trading has to occur. We need to reduce it to minimum
+Programmers don't like trading data around between modules. But some trading has to occur. We need to reduce it to a minimum.
 
 Use *Move Function (198)* and *Move Field (207)* if you see two modules talking a lot. If they have common interest, make a third module to keep that commonality between them, or use *Hide Delegate (189)* to make another intermediary module.
 
