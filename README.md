@@ -191,7 +191,7 @@ Apply *Encapsulate Record (162)* on it. And *Remove Setting Method (331)* on fie
 
 ## Refused Bequest
 
-Subclasses are getting methods and data from the superclass it doesn't need or what? Well, that means most probably the hierarchy is wrong.
+Subclasses are getting methods and data from the superclass it doesn't need or want? Well, that means most probably the hierarchy is wrong.
 
 Use *Push Down Method (359)* and *Push Down Field (361)* to push unused code to the sibling. That way the parent hold only whats common.
 
